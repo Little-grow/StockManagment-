@@ -1,0 +1,17 @@
+D:\2nd year - 2nd term\POSDemo\bin\Debug\POSDemo.exe.config
+D:\2nd year - 2nd term\POSDemo\bin\Debug\POSDemo.exe
+D:\2nd year - 2nd term\POSDemo\bin\Debug\POSDemo.pdb
+D:\2nd year - 2nd term\POSDemo\bin\Debug\EntityFramework.dll
+D:\2nd year - 2nd term\POSDemo\bin\Debug\EntityFramework.SqlServer.dll
+D:\2nd year - 2nd term\POSDemo\bin\Debug\EntityFramework.xml
+D:\2nd year - 2nd term\POSDemo\bin\Debug\EntityFramework.SqlServer.xml
+D:\2nd year - 2nd term\POSDemo\obj\Debug\POSDemo.csproj.AssemblyReference.cache
+D:\2nd year - 2nd term\POSDemo\obj\Debug\POSDemo.csproj.SuggestedBindingRedirects.cache
+D:\2nd year - 2nd term\POSDemo\obj\Debug\POSDemo.Login.resources
+D:\2nd year - 2nd term\POSDemo\obj\Debug\POSDemo.Properties.Resources.resources
+D:\2nd year - 2nd term\POSDemo\obj\Debug\POSDemo.SignUp.resources
+D:\2nd year - 2nd term\POSDemo\obj\Debug\POSDemo.csproj.GenerateResource.cache
+D:\2nd year - 2nd term\POSDemo\obj\Debug\POSDemo.csproj.CoreCompileInputs.cache
+D:\2nd year - 2nd term\POSDemo\obj\Debug\POSDemo.csproj.CopyComplete
+D:\2nd year - 2nd term\POSDemo\obj\Debug\POSDemo.exe
+D:\2nd year - 2nd term\POSDemo\obj\Debug\POSDemo.pdb
