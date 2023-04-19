@@ -31,5 +31,6 @@ namespace POSDemo
 			db.SaveChanges();
 			MessageBox.Show("Done!");
 		}
+	
 	}
 }
