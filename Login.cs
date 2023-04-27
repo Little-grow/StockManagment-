@@ -1,4 +1,5 @@
-﻿using System;
+﻿using POSDemo.DB;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,7 +14,8 @@ namespace POSDemo
 {
 	public partial class Login : Form
 	{
-		public Login()
+        POSTutEntities db = new POSTutEntities();
+        public Login()
 		{
 			InitializeComponent();
 		}
@@ -25,10 +27,20 @@ namespace POSDemo
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
-            Thread th = new Thread(openForm);
-            th.SetApartmentState(ApartmentState.STA);
-            th.Start();
+
+            var result = db.Users.Where(x => x.UserName == txtUser.Text && x.Password == txtPassword.Text).ToList();
+
+            if (result.Count() > 0)
+            {
+                this.Close();
+                Thread th = new Thread(openForm);
+                th.SetApartmentState(ApartmentState.STA);
+                th.Start();
+            }
+            else
+            {
+                MessageBox.Show("Username or password are invalid");
+            }
         }
 
         void openForm()

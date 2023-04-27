@@ -37,5 +37,11 @@ namespace POSDemo
             SignUp frm2 = new SignUp();
             frm2.Show();
         }
+
+        private void addProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            POSDemo.Product p = new POSDemo.Product();
+            p.Show();
+        }
     }
 }
