@@ -47,5 +47,7 @@ namespace POSDemo
         {
             Application.Run(new main_form());
         }
+
+        
     }
 }
