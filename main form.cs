@@ -43,5 +43,17 @@ namespace POSDemo
             POSDemo.Product p = new POSDemo.Product();
             p.Show();
         }
+
+        private void listProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ProductList frm = new ProductList();
+            frm.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ProductList frm = new ProductList();
+            frm.Show();
+        }
     }
 }
