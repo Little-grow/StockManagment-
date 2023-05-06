@@ -29,22 +29,24 @@ namespace POSDemo
 
         private void main_form_Load(object sender, EventArgs e)
         {
-            this.Close();
+            
         }
 
         private void addNewUserToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SignUp frm2 = new SignUp();
             frm2.Show();
-        }
+		}
 
-        private void addProductToolStripMenuItem_Click(object sender, EventArgs e)
+
+		private void addProductToolStripMenuItem_Click(object sender, EventArgs e)
         {
             POSDemo.Product p = new POSDemo.Product();
             p.Show();
-        }
 
-        private void listProductToolStripMenuItem_Click(object sender, EventArgs e)
+		}
+
+		private void listProductToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ProductList frm = new ProductList();
             frm.Show();
@@ -54,6 +56,8 @@ namespace POSDemo
         {
             ProductList frm = new ProductList();
             frm.Show();
-        }
-    }
+			this.Close();
+
+		}
+	}
 }

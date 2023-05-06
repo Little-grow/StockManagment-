@@ -30,24 +30,17 @@ namespace POSDemo
 
             var result = db.Users.Where(x => x.UserName == txtUser.Text && x.Password == txtPassword.Text).ToList();
 
-            if (result.Count() > 0)
-            {
-                this.Close();
-                Thread th = new Thread(openForm);
-                th.SetApartmentState(ApartmentState.STA);
-                th.Start();
-            }
-            else
-            {
+			if (result.Count() > 0)
+			{
+				main_form mainForm = new main_form(); 
+				mainForm.ShowDialog(); 
+				this.Close();
+			}
+			else
+			{
                 MessageBox.Show("Username or password are invalid");
             }
         }
-
-        void openForm()
-        {
-            Application.Run(new main_form());
-        }
-
         
     }
 }
